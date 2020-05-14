@@ -95,9 +95,9 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\VenditaVeicoliDllProject\VenditaVeicoliDllProject.csproj">
-      <Project>{9E000298-3817-4220-9FCB-3DD3034E45BA}</Project>
-      <Name>VenditaVeicoliDllProject</Name>
+    <ProjectReference Include="..\VenditaVeicoliDLL\VenditaVeicoliDLL.csproj">
+      <Project>{a7f1b27d-8dd5-4a4c-b088-7cbc307eee50}</Project>
+      <Name>VenditaVeicoliDLL</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>

@@ -117,8 +117,8 @@ namespace VenditaVeicoliDllProject
 
         private static string selectImage(string v)
         {
-            int nImg = rnd.Next(1, 11); 
-            if (v == "auto") 
+            int nImg = rnd.Next(1, 11);
+            if (v == "auto")
                 return "auto/auto" + nImg + ".jpg";
             else
                 return "moto/moto" + nImg + ".jpg";

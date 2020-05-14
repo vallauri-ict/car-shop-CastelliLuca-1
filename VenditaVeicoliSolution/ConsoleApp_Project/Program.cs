@@ -7,7 +7,7 @@ namespace ConsoleApp_Project
 {
     class Program
     {
-        public static string connStr = "Provider=Microsoft.ACE.OLEDB.12.0;Data Source=CarShop.accdb";
+        public static string connStr = "Provider=Microsoft.ACE.OLEDB.12.0;DataSource=CarShop.accdb";
         //SerializableBindingList<Veicolo> bindingListVeicoli;
 
         static void Main(string[] args)

@@ -29,26 +29,16 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormMain));
-            this.listBoxVeicoli = new System.Windows.Forms.ListBox();
             this.nuovoToolStripButton = new System.Windows.Forms.ToolStripButton();
             this.apriToolStripButton = new System.Windows.Forms.ToolStripButton();
             this.salvaToolStripButton = new System.Windows.Forms.ToolStripButton();
             this.stampaToolStripButton = new System.Windows.Forms.ToolStripButton();
             this.toolStripSeparator = new System.Windows.Forms.ToolStripSeparator();
             this.toolStrip1 = new System.Windows.Forms.ToolStrip();
+            this.excelToolStripButton = new System.Windows.Forms.ToolStripButton();
+            this.listBoxVeicoli = new System.Windows.Forms.ListBox();
             this.toolStrip1.SuspendLayout();
             this.SuspendLayout();
-            // 
-            // listBoxVeicoli
-            // 
-            this.listBoxVeicoli.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.listBoxVeicoli.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.listBoxVeicoli.FormattingEnabled = true;
-            this.listBoxVeicoli.ItemHeight = 16;
-            this.listBoxVeicoli.Location = new System.Drawing.Point(0, 25);
-            this.listBoxVeicoli.Name = "listBoxVeicoli";
-            this.listBoxVeicoli.Size = new System.Drawing.Size(499, 220);
-            this.listBoxVeicoli.TabIndex = 0;
             // 
             // nuovoToolStripButton
             // 
@@ -102,12 +92,34 @@
             this.apriToolStripButton,
             this.salvaToolStripButton,
             this.stampaToolStripButton,
-            this.toolStripSeparator});
+            this.toolStripSeparator,
+            this.excelToolStripButton});
             this.toolStrip1.Location = new System.Drawing.Point(0, 0);
             this.toolStrip1.Name = "toolStrip1";
             this.toolStrip1.Size = new System.Drawing.Size(499, 25);
             this.toolStrip1.TabIndex = 1;
             this.toolStrip1.Text = "toolStrip1";
+            // 
+            // excelToolStripButton
+            // 
+            this.excelToolStripButton.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.excelToolStripButton.Image = ((System.Drawing.Image)(resources.GetObject("excelToolStripButton.Image")));
+            this.excelToolStripButton.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.excelToolStripButton.Name = "excelToolStripButton";
+            this.excelToolStripButton.Size = new System.Drawing.Size(23, 22);
+            this.excelToolStripButton.Text = "toolStripButton1";
+            this.excelToolStripButton.Click += new System.EventHandler(this.excelToolStripButton_Click);
+            // 
+            // listBoxVeicoli
+            // 
+            this.listBoxVeicoli.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.listBoxVeicoli.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.listBoxVeicoli.FormattingEnabled = true;
+            this.listBoxVeicoli.ItemHeight = 16;
+            this.listBoxVeicoli.Location = new System.Drawing.Point(0, 25);
+            this.listBoxVeicoli.Name = "listBoxVeicoli";
+            this.listBoxVeicoli.Size = new System.Drawing.Size(499, 220);
+            this.listBoxVeicoli.TabIndex = 0;
             // 
             // FormMain
             // 
@@ -127,14 +139,14 @@
         }
 
         #endregion
-
-        private System.Windows.Forms.ListBox listBoxVeicoli;
         private System.Windows.Forms.ToolStripButton nuovoToolStripButton;
         private System.Windows.Forms.ToolStripButton apriToolStripButton;
         private System.Windows.Forms.ToolStripButton salvaToolStripButton;
         private System.Windows.Forms.ToolStripButton stampaToolStripButton;
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator;
         private System.Windows.Forms.ToolStrip toolStrip1;
+        private System.Windows.Forms.ListBox listBoxVeicoli;
+        private System.Windows.Forms.ToolStripButton excelToolStripButton;
     }
 }
 
